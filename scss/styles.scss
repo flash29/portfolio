@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #35d1d3;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -92,6 +92,10 @@ body {
         overflow: hidden;
         z-index: -1;
     }
+}
+
+.sendEmail{
+    color: white;
 }
 
 // No JS styles
@@ -655,7 +659,7 @@ footer {
 }
 
 .project-info {
-    position: absolute;
+    // position: absolute;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 300px;
